@@ -1,0 +1,18 @@
+# Site settings
+title: Nine Hub CR
+description: Hub de radioastronomía para América Central y el Caribe
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Nine Hub CR
+user_description: Misión de NINE. Fomentar el conocimiento en radio astronomía y sus disciplinas adjuntas (Software, Computación, Ingeniería, Astrofísica) a través de la fundación de Hubs nacionales. Crear un pipeline de talento dentro del campo, y ampliar el acceso a la mayor cantidad de comunidades posibles. Además de la mentoría de estudiantes, profesionales, e interesados.
+user_title: Hub de radioastronomía para América Central y el Caribe.
+desarrollo: Desarrollo del Programa Hub NINE. Cada participante del programa NINE debe llevar a cabo la fundación de un Hub nacional para su país de origen. Este año, debido a la situación sanitaria con el COVID-19, el hub se establecerá virtualmente en Costa Rica, y se ampliará su alcance a través de la entidad anfitriona Alpha-Cen, la cuál está dedicada a promover la Astrofísica y ciencias del espacio en la región Centroamericana y del Caribe.
+capacitaciones: Capacitaciones Hub NINE Costa Rica. Durante el primer año, el Hub busca minimizar la brecha en áreas de radioastronomía y programación, creando una serie de cursos cubriendo Radioastronomía, Python, Ciencia de Datos, Aprendizaje de Máquina, e interacción con hardware usando Raspberry Pi.
+email: ninehub.cr@gmail.com
+# twitter_username: lorem_ipsum
+# github_username:  lorem_ipsum
+# gplus_username:  lorem_ipsum
+
+exclude: ['package.json', 'src' , 'node_modules']
