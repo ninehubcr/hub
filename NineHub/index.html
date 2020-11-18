@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TL2-NineHub</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  
+  <div class="STo">
+  <div class="grid_who">
+    <div class="row">
+      <div class="center-align">
+        <h1 class="StoT">Cursos</h1>
+      </div>
+    <div class="col s12 l4" id='h1'>
+        <div class="Hbox" id="astb"> 
+          <div class="center-align">
+              <div>
+                <img class="Himg" id="ast" src="IMG/Ast1.png"></img>
+              </div>
+            <div class="hTitleBox" >
+              <h3 id="hn1">Radioastronomía</h3>
+            </div>
+            <div id="ht1">
+            <h3 class="hTextBox"  >
+            Trabajar con el club ha sido una experiencia agradable, los/las chicos(as) trabajan con mucha dedicación por crear 
+            herramientas y soluciones reales en tiempos record.</h3>
+            </div>
+            <div>
+              <h3 class="hTextBox">25-26-27 de Septiembre</h3>
+              <h3>15:00 a 17:30 horas UTC-6</h3>
+            </div>
+            <countdownn>
+            </countdownn>
+
+          </div>
+          
+        </div>
+      
+    </div>
+    <div class="col s12 l4" id='h2'>
+      <div class="center-align">
+        <div class="Hbox" id="py1">
+        <div class="center-align" >
+          <div>
+            <img class="Himg" id="py" src="IMG/PY.png"></img>
+          </div>
+          <div class="hTitleBox" >
+              <h3 id="hn2">Python</h3>
+          </div>
+          <div id="ht2">
+          <h3 class="hTextBox" >
+          Trabajar con el club ha sido una experiencia agradable, los/las chicos(as) trabajan con mucha dedicación por crear 
+          herramientas y soluciones reales en tiempos record.</h3>
+          </div>
+          <div>
+            <h3 class="hTextBox">Ultimas semnas de Noviembre</h3>
+          </div>
+          <countdown></countdown>
+
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 l4" id='h3'>
+      <div class="center-align">
+        <div class="Hbox" id="DS">
+        <div class="center-align"  >
+          <div>
+            <img class="Himg" src='IMG/DS.png'></img>
+          </div>
+            <div class="hTitleBox">
+              <h3 id="hn3" >Data Science</h3>
+            </div>
+            <div id="ht3">
+              <h3 class="hTextBox"  >
+              Trabajar con el club ha sido una experiencia agradable, los/las chicos(as) trabajan con mucha dedicación por crear 
+              herramientas y soluciones reales en tiempos record.</h3>
+              </div>
+              <div>
+                <h3 class="hTextBox">Ultimas semnas de Enero</h3>
+              </div>
+              <countdownds></countdownds>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  </div>
+
+    <div class="grid_who team">
+      <div class="row Tsection ">
+     
+        <div class="center-align">
+          <h1 class="StoT">Nuestro equipo</h1>
+        </div>
+       <div class="carousel">
+<a class="carousel-item">
+          <div class="col s12 l4">
+  <div class="card ">
+    <div class="card-image waves-effect  waves-light">
+      <img class="activator" src="IMG/Team1.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Mauricio Rodríguez Alas<i class="material-icons right">arrow_drop_up</i></span>
+      <p>Ingeniero en Electrónica</p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Mauricio Rodríguez Alas<i class="material-icons right">close</i></span>
+      <p id="ctext">Here is some more information about this person that is only revealed once clicked on.</p>
+    </div>
+  </div>
+          </div>
+</a>
+<a class="carousel-item">
+  <div class="col s12 l4" >
+
+      <div class="card">
+        <div class="card-image waves-effect  waves-light">
+          <img class="activator" src="IMG/Team3.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Marianela Quirós Viquéz<i class="material-icons right">arrow_drop_up</i></span>
+          <p>Estudiante de la Maestría en Ciencias en la especialidad de Astrofísica</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Marianela Quirós Viquéz<i class="material-icons right">close</i></span>
+          <p id="ctext">Estudio de las propiedades del gas molecular y frío de las galaxias polvorientas con alta formación estelar a alto corrimiento al rojo (aproximadamente cuando el universo tenía el 10% de su edad actual) usando longitudes de onda de radio.</p>
+        </div>
+      </div>
+  </div>
+  </a>
+
+
+          <a class="carousel-item">
+            <div class="col s12 l4" >
+          <div class="card">
+            <div class="card-image waves-effect  waves-light">
+              <img class="activator" src="IMG/Team5.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Angel Ureña Quesada<i class="material-icons right">arrow_drop_up</i></span>
+              <p>Estudiante de Desarrollo de Software</p>
+              <!--Software Developer-->
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Angel Ureña Quesada<i class="material-icons right">close</i></span>
+              <p id="ctext">Estudio Informática en Desarrollo de Software, experiencia en front-end y back-end con diferentes lenguajes, librerías y frameworks. A su vez trabajo en el desarrollo e implementación de la tecnología.</p>
+            </div>
+          </div>
+      </div>
+    </a>
+
+    <a class="carousel-item">
+      <div class="col s12 l4" >
+    <div class="card">
+      <div class="card-image waves-effect  waves-light">
+        <img class="activator" src="IMG/Team6.png">
+      </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Rodrigo Sacahui Reyes<i class="material-icons right">arrow_drop_up</i></span>
+            <p>Presidente Alpha-Cen</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Rodrigo Sacahui Reyes<i class="material-icons right">close</i></span>
+            <p id="ctext"> Sus estudios han sido principalmente en la astrofísica de rayos gamma, en particular en destellos de rayos gamma. Actualmente también trabaja en el estudio de Blazares, un tipo de galaxia activa, que constituyen los objetos más brillantes en el cielo en rayos gamma.</p>
+        </div>
+    </div>
+</div>
+</a>
+
+
+
+<a class="carousel-item" href="https://ecfm.usac.edu.gt/jrsacahui/AstroCentro/Astro.html">
+  <div class="col s12 l4" >
+<div class="card">
+  <div class="card-image waves-effect  waves-light">
+    <img class="activator" src="IMG/Alpha-Cen.png">
+  </div>
+    <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4" >Alpha-Cen<i class="material-icons right">arrow_drop_up</i></span>
+        <p>Astrofísica Centroamericana y del Caribe</p>
+      </div>
+</div>
+</div>
+ </a>
+
+
+    <a class="carousel-item">
+      <div class="col s12 l4">
+      <div class="card">
+        <div class="card-image waves-effect  waves-light">
+          <img class="activator" src="IMG/Team7.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Abigail <i class="material-icons right">arrow_drop_up</i></span>
+          <p>Estudiante de Desarrollo de Software</p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Abigail<i class="material-icons right">close</i></span>
+          <p id="ctext">Here is some more information about this person that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+        
+    </a>
+
+      <a class="carousel-item">
+        <div class="col s12 l4" >
+            <div class="card">
+              <div class="card-image waves-effect  waves-light">
+                <img class="activator" src="IMG/Team2.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Antonio Porras Valverde<i class="material-icons right">arrow_drop_up</i></span>
+                <p>Estudiante de doctorado en astrofisica de Vanderbilt University</p>
+                <!---Ph.D Astrophysic -->
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Antonio Porras Valverde<i class="material-icons right">close</i></span>
+                <p id="ctext">Estudio el porque galaxias paran de formar estrellas usando simulaciones computacionales.</p>
+              </div>
+            </div>
+        </div>
+    </a>
+
+
+      </div>
+      </div>
+    </div>
+
+    <div class="grid_who team">
+      <div class="row Tsection">
+
+        <div class="center-align">
+          <h1 class="StoT">Galeria</h1>
+        </div>
+        <div class="clo s12 l4">
+       
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-eeda4fc6-893d-478e-8209-89333bc0cf4a"></div>
+
+<style>
+  .eapps-link{
+  display: none !important;
+}
+</style>
+       
+      </div>
+    </div>
+  
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.4/vue.min.js'></script>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  let options = {
+    padding: 200,
+};
+  (function(){
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+})();
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js'></script><script  src="./script.js"></script>
+
+
+</body>
+</html>

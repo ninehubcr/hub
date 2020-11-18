@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css?family=Graduate|Quicksand:300,400,700");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  background: none;
+}
+
+
+.countdown {
+  text-align: center;
+}
+.pulse{
+  width: 5vw;
+  height: 5vw;
+  background-color: red;
+}
+.timer {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+          width: 25vw;
+}
+.timer .box {
+  display: inline-block;
+  /*margin: 1rem;*/
+  width: 5rem;
+  text-align: center;
+  background: #F9A620;
+  -moz-transform-style: preserve-3d;
+}
+.timer .box:nth-child(2) .value {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.timer .box:nth-child(3) .value {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+.timer .box:nth-child(4) .value {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.timer .box:nth-child(5) .value {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.timer .box .spacer {
+  position: relative;
+  content: '';
+  display: block;
+  height: 20px;
+  background: #0E0F25;
+}
+.timer .box .spacer::before, .timer .box .spacer::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  background: #F9A620;
+  border-radius: 50%;
+}
+.timer .box .spacer::before {
+  left: .8rem;
+}
+.timer .box .spacer::after {
+  right: .8rem;
+}
+.timer .box .value {
+  position: relative;
+  margin: 0;
+  padding: 1.2rem 0 2rem;
+  font-family: "Graduate", sans-serif;
+  font-size: 0.9rem;
+  color: rgb(255, 255, 255);
+  background: #F9A620;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-animation: wind 4s ease-out alternate infinite;
+          animation: wind 4s ease-out alternate infinite;
+  box-shadow: 0 15px 10px -10px rgba(181, 131, 141, 0);
+}
+.timer .box .label {
+  margin: 0;
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  background: #0E0F25;
+}
+.timer .box .label::first-letter {
+  text-transform: uppercase;
+}
+.timer .text {
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #0E0F25;
+}
+
+.expired-timer .box {
+  width: 41%;
+}
+.Himg{
+  margin-top: -8vw;
+  width: 15vw;
+  height: auto;
+  margin-bottom: 10px;
+}
+#ast{
+  width: 10vw;
+  height: auto;
+  margin-left: 4vw;
+}
+.hTitleBox{
+border-bottom: solid;
+border-bottom-color: #C4C4C4;
+font-family: Coolvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+margin-top: -2vw;
+}
+.hTextBox{
+font-family: Gill Sans MT;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+margin-top: 2vw;
+
+}
+.Abutton{
+  margin-top: 2vh;
+  width: 10vw;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  font-family: Gill Sans MT;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(81.59deg, #2087FF 0%, #D55AF4 100%);
+}
+.SToh {
+  font-family: Coolvetica;
+  margin-top: 9vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #333333;
+}
+.STot {
+  font-family: Gill Sans MT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin-top: 3vw;
+}
+.grid_who {
+  display: -ms-grid;
+  display: grid;
+}
+.Hbox {
+  width: 80%;
+  margin-left: 10%;
+  height: 60vh;
+  background: #E6E6E6;
+  margin-top: 10vw;
+  border-radius: 75px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.STo {
+  position: relative;
+  width: 100vw;
+  height: 110vh;
+}
+.StoT {
+  font-family: Coolvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5vw;
+}
+a{
+  color: #ffffff;
+}
+#btn1{
+  background-color: transparent;
+  border: none;
+}
+.team{
+  width: 100vw;
+  height: 100vh;
+}
+.Tsection{
+margin-top: 5vw;
+}
+.Tbox{
+  width: 80%;
+  margin-left: 10%;
+  height: 60vh;
+  background: #E6E6E6;
+  margin-top: 10vw;
+  border-radius: 75px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.TTitleBox{
+  border-bottom: solid;
+  border-bottom-color: #C4C4C4;
+  font-family: Coolvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: -1vw;
+  
+  }
+  .Timg{
+    margin-top: -8vw;
+    width: 15vw;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .card .card-image {
+    position: relative;
+    width: 23vw;
+    height: auto;
+}
+.card{
+  width: 23vw;
+  height: 33vw;
+}
+.carousel {
+  /* position: relative; */
+  width: 100vw !important;
+  height: 90vh !important;
+  margin-top: -11vw;
+  right: 6vw;
+}
+#ctext {
+  margin-top: 8vw;
+  font-size: 20px;
+}
+.eapps-link{
+  display: none !important;
+}
+@-webkit-keyframes wind {
+  0% {
+    -webkit-transform: rotatex(0);
+            transform: rotatex(0);
+    box-shadow: 0 15px 10px -10px rgba(181, 131, 141, 0);
+    color: rgba(109, 104, 117, 0.6);
+    background: #ecab41;
+  }
+  10% {
+    -webkit-transform: rotatex(20deg);
+            transform: rotatex(20deg);
+    box-shadow: 0 15px 10px -10px #f59b0b;
+    color: rgba(109, 104, 117, 0.45);
+    background: #ecab41;
+  }
+}
+
+@keyframes wind {
+  0% {
+    -webkit-transform: rotatex(0);
+            transform: rotatex(0);
+    box-shadow: 0 15px 10px -10px rgba(181, 131, 141, 0);
+    color: rgba(109, 104, 117, 0.6);
+    background: #ecab41;
+  }
+  10% {
+    -webkit-transform: rotatex(20deg);
+            transform: rotatex(20deg);
+    box-shadow: 0 15px 10px -10px #f59b0b;
+    color: rgba(109, 104, 117, 0.45);
+    background: #ecab41;
+  }
+}
+@-webkit-keyframes lighting {
+  0% {
+    box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #F9A620;
+  }
+  4% {
+    box-shadow: -16px 0 0 2px white, 14px 0 0 #F9A620;
+  }
+  8% {
+    box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #F9A620;
+  }
+  12% {
+    box-shadow: -16px 0 0 2px white, 14px 0 0 #F9A620;
+  }
+  20% {
+    box-shadow: -16px 0 0 2px white, 14px 0 0 #F9A620;
+  }
+  22% {
+    box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #F9A620;
+  }
+}
+@keyframes lighting {
+  0% {
+    box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #F9A620;
+  }
+  4% {
+    box-shadow: -16px 0 0 2px white, 14px 0 0 #F9A620;
+  }
+  8% {
+    box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #F9A620;
+  }
+  12% {
+    box-shadow: -16px 0 0 2px white, 14px 0 0 #F9A620;
+  }
+  20% {
+    box-shadow: -16px 0 0 2px white, 14px 0 0 #F9A620;
+  }
+  22% {
+    box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #F9A620;
+  }
+}
+@-webkit-keyframes lighting2 {
+  0% {
+    box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #ecab41;
+  }
+  4% {
+    box-shadow: 16px 0 0 2px white, -14px 0 0 #ecab41;
+  }
+  8% {
+    box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #ecab41;
+  }
+  12% {
+    box-shadow: 16px 0 0 2px white, -14px 0 0 #ecab41;
+  }
+  20% {
+    box-shadow: 16px 0 0 2px white, -14px 0 0 #ecab41;
+  }
+  22% {
+    box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #ecab41;
+  }
+}
+@keyframes lighting2 {
+  0% {
+    box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #ecab41;
+  }
+  4% {
+    box-shadow: 16px 0 0 2px white, -14px 0 0 #ecab41;
+  }
+  8% {
+    box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #ecab41;
+  }
+  12% {
+    box-shadow: 16px 0 0 2px white, -14px 0 0 #ecab41;
+  }
+  20% {
+    box-shadow: 16px 0 0 2px white, -14px 0 0 #ecab41;
+  }
+  22% {
+    box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #ecab41;
+  }
+}
+@media screen and (max-width: 800px) {
+  .countdown {
+    width: 100%;
+    max-width: 25rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .timer .box {
+    margin: 1rem .5rem;
+    width: 8rem;
+  }
+
+  .expired-timer .box {
+    width: 18rem;
+  }
+}
